@@ -319,6 +319,8 @@ class PlayState extends MusicBeatState
 					curStage = 'school';
 				case 'thorns':
 					curStage = 'schoolEvil';
+				case 'cyber' | 'buster' | 'order':
+					curStage = 'deltarune';
 				default:
 					curStage = 'stage';
 			}
@@ -610,6 +612,17 @@ class PlayState extends MusicBeatState
 					bg.antialiasing = false;
 					add(bg);
 				}
+
+				case 'deltarune': //Tasque Manager Bonus Song
+				var bg:BGSprite = new BGSprite('TasqueBack', -600, -200, 0.9, 0.9, ['BattleBG'], true);
+				bg.setGraphicSize(Std.int(bg.width * 1.5));
+				bg.updateHitbox();
+				add(bg);
+	
+				pico = new BGSprite('characters/Pico_FNF_assetss', 1220, 350, 0.95, 0.95, ['Pico Idle Dance']);
+				pico.animation.addByPrefix('hey', 'Pico Note Right0', 24, false);
+				pico.antialiasing = true;
+				add(pico);
 		}
 		
 		add(gfGroup);
@@ -1992,6 +2005,14 @@ class PlayState extends MusicBeatState
 						heyTimer = 0;
 					}
 				}
+			case 'deltarune':
+				if(heyTimer > 0) {
+					heyTimer -= elapsed;
+					if(heyTimer <= 0) {
+						pico.dance();
+						heyTimer = 0;
+					}
+				}
 		}
 
 		if(!inCutscene) {
@@ -2544,6 +2565,10 @@ class PlayState extends MusicBeatState
 
 					if(curStage == 'mall') {
 						bottomBoppers.animation.play('hey', true);
+						heyTimer = time;
+					}
+					if(curStage == 'deltarune') {
+						pico.animation.play('hey', true);
 						heyTimer = time;
 					}
 				}
@@ -3824,6 +3849,9 @@ class PlayState extends MusicBeatState
 				if(!ClientPrefs.lowQuality) {
 					bgGirls.dance();
 				}
+			
+			case 'deltarune':
+				if(heyTimer <= 0) pico.dance();
 
 			case 'mall':
 				if(!ClientPrefs.lowQuality) {
