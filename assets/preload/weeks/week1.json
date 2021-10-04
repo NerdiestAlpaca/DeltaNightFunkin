@@ -1,22 +1,43 @@
 {
-	"songs": [
-		["Cyber", "tasque", [0, 60, 255]]
-		["Buster", "tasque", [0, 60, 255]],
-		["Order", "tasque", [0, 60, 255]]
-	],
-
+	"storyName": "Order, Order!",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
 	"weekCharacters": [
-		"dad",
+		"tasque",
 		"bf",
 		"gf"
 	],
-	"weekBackground": "stage",
-
-	"storyName": "Daddy Dearest",
-	"weekBefore": "tutorial",
-	"weekName": "Week 1",
-	"startUnlocked": true,
-
+	"songs": [
+		[
+			"Cyber",
+			"tasque",
+			[
+				0,
+				60,
+				255
+			]
+		],
+		[
+			"Buster",
+			"tasque",
+			[
+				0,
+				60,
+				255
+			]
+		],
+		[
+			"Order",
+			"tasque",
+			[
+				0,
+				60,
+				255
+			]
+		]
+	],
 	"hideStoryMode": false,
-	"hideFreeplay": false
+	"weekName": "Week 1"
 }

@@ -1,11 +1,10 @@
 {
-	
-	"image": "Menu_Tasque",
-	"position": [
-		0,
-		0
-	],
-	"scale": 1,
+	"confirm_anim": "M Tasque Idle",
 	"idle_anim": "M Tasque Idle",
-	"confirm_anim": "M Tasque Idle"
+	"position": [
+		20,
+		25
+	],
+	"scale": 0.9,
+	"image": "Menu_Tasque"
 }
