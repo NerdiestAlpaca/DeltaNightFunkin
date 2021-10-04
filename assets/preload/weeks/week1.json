@@ -1,7 +1,7 @@
 {
 	"storyName": "Order, Order!",
 	"hideFreeplay": false,
-	"weekBackground": "stage",
+	"weekBackground": "mansion",
 	"weekBefore": "tutorial",
 	"startUnlocked": true,
 	"weekCharacters": [
