@@ -1,0 +1,10 @@
+{
+	"idle_anim": "M Week2 Idle",
+	"confirm_anim": "M Week2 Idle",
+	"position": [
+		200,
+		45
+	],
+	"scale": 0.85,
+	"image": "Menu_Week1"
+}

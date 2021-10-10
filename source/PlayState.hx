@@ -198,6 +198,7 @@ class PlayState extends MusicBeatState
 	var grpLimoDancers:FlxTypedGroup<BackgroundDancer>;
 	var fastCar:BGSprite;
 
+	var pico:BGSprite;
 	var upperBoppers:BGSprite;
 	var bottomBoppers:BGSprite;
 	var santa:BGSprite;
@@ -319,7 +320,7 @@ class PlayState extends MusicBeatState
 					curStage = 'school';
 				case 'thorns':
 					curStage = 'schoolEvil';
-				case 'cyber' | 'buster' | 'order':
+				case 'cyber' | 'buster' | 'order' | 'forest' | 'dance' | 'rouxls':
 					curStage = 'deltarune';
 				default:
 					curStage = 'stage';
