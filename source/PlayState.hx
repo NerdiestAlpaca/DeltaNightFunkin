@@ -1330,9 +1330,6 @@ class PlayState extends MusicBeatState
 		
 						bottomBoppers.dance(true);
 						santa.dance(true);
-					
-					case 'deltarune':
-						pico.dance(true);
 				}
 
 				switch (swagCounter)
