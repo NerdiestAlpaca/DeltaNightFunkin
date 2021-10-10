@@ -1,130 +1,130 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				51,
-				-2
-			],
 			"loop": false,
+			"offsets": [
+				17,
+				-16
+			],
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "Sweet Left",
-			"indices": []
+			"indices": [],
+			"name": "Sweet Left"
 		},
 		{
-			"offsets": [
-				-102,
-				1
-			],
 			"loop": false,
-			"anim": "singDOWN",
+			"offsets": [
+				-27,
+				-56
+			],
 			"fps": 24,
-			"name": "Sweet Down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Sweet Down"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				10,
-				37
+				1
 			],
-			"loop": false,
-			"anim": "singUP",
 			"fps": 24,
-			"name": "Sweet Up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "Sweet Up"
 		},
 		{
+			"loop": false,
 			"offsets": [
-				-9,
+				34,
 				-19
 			],
-			"loop": false,
-			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "Sweet Right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Sweet Right"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
+			"fps": 24,
 			"anim": "idle",
+			"indices": [],
+			"name": "Sweet Idle"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle-loop",
 			"fps": 24,
 			"name": "Sweet Idle",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "idle-loop",
 			"indices": [
 				10,
 				11,
 				12,
 				12
-			],
-			"name": "Sweet Idle"
+			]
 		},
 		{
-			"offsets": [
-				51,
-				-2
-			],
 			"loop": true,
-			"fps": 24,
+			"offsets": [
+				17,
+				-16
+			],
 			"anim": "singLEFT-loop",
-			"indices": [
-				10,
-				11,
-				12,
-				13
-			],
-			"name": "Sweet Left"
-		},
-		{
-			"offsets": [
-				-9,
-				-19
-			],
-			"loop": true,
 			"fps": 24,
-			"anim": "singRIGHT-loop",
-			"indices": [
-				10,
-				11,
-				12,
-				13
-			],
-			"name": "Sweet Right"
-		},
-		{
-			"loop": true,
-			"offsets": [
-				10,
-				37
-			],
-			"anim": "singUP-loop",
-			"fps": 24,
-			"name": "Sweet Up",
+			"name": "Sweet Left",
 			"indices": [
 				10,
 				11,
 				12,
 				13
 			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				34,
+				-19
+			],
+			"anim": "singRIGHT-loop",
+			"fps": 24,
+			"name": "Sweet Right",
+			"indices": [
+				10,
+				11,
+				12,
+				13
+			]
+		},
+		{
+			"offsets": [
+				10,
+				1
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singUP-loop",
+			"indices": [
+				10,
+				11,
+				12,
+				13
+			],
+			"name": "Sweet Up"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Sweet",
 	"position": [
 		0,
-		40
+		250
 	],
 	"healthicon": "sweet",
 	"flip_x": false,
@@ -134,8 +134,8 @@
 		75
 	],
 	"camera_position": [
-		210,
-		20
+		300,
+		-60
 	],
 	"sing_duration": 6.1,
 	"scale": 1
